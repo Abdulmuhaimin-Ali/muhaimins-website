@@ -2,25 +2,28 @@ import { Building2 } from "lucide-react";
 
 const experiences = [
   {
-    company: "TechCorp Inc",
-    role: "Senior Full-Stack Developer",
-    period: "2022 - Present",
-    description: "Leading development of cloud-native applications, mentoring junior developers, and architecting scalable solutions serving millions of users.",
-    technologies: ["React", "Node.js", "AWS", "PostgreSQL"],
+    company: "Carfax",
+    role: "Backend Developer",
+    period: "Sep. 2025 - Dec. 2025",
+    description:
+      "Developed and optimized backend services for high-traffic applications, collaborated with cross-functional teams to design scalable solutions, and ensured system reliability and performance.",
+    technologies: ["C#", "Azure Devops", "Python", "SQL Server", "Vue.js"],
   },
   {
-    company: "StartupXYZ",
+    company: "OEConnection",
     role: "Full-Stack Developer",
-    period: "2020 - 2022",
-    description: "Built and maintained multiple client-facing applications, implemented CI/CD pipelines, and contributed to product strategy.",
-    technologies: ["Vue.js", "Python", "Docker", "MongoDB"],
+    period: "Jan. 2025 - May. 2025",
+    description:
+      "Built and maintained multiple client-facing applications, implemented CI/CD pipelines, and contributed to product strategy.",
+    technologies: ["C#", "Python", "Docker", "", "MongoDB"],
   },
   {
-    company: "Digital Agency Co",
-    role: "Frontend Developer",
-    period: "2019 - 2020",
-    description: "Developed responsive web applications for various clients, focusing on performance optimization and accessibility.",
-    technologies: ["React", "TypeScript", "SCSS", "GraphQL"],
+    company: "Big Blue Bubble",
+    role: "QA Tester",
+    period: "Sep. 2022 - Dec. 2022",
+    description:
+      "Conducted comprehensive testing for mobile games, identified bugs, and collaborated with developers to enhance game quality and user experience.",
+    technologies: ["Playwright", "Jest", "Selenium"],
   },
 ];
 
@@ -40,7 +43,7 @@ const ExperienceSection = () => {
             >
               {/* Timeline dot */}
               <div className="absolute left-0 top-0 w-4 h-4 -translate-x-[9px] rounded-full bg-card border-2 border-border group-hover:border-primary group-hover:bg-primary/10 transition-colors duration-300" />
-              
+
               <div className="bg-card rounded-xl p-6 card-elevated hover-lift">
                 <div className="flex items-start justify-between flex-wrap gap-2 mb-3">
                   <div className="flex items-center gap-3">
@@ -51,7 +54,9 @@ const ExperienceSection = () => {
                       <h3 className="font-display text-xl font-semibold text-foreground">
                         {exp.role}
                       </h3>
-                      <p className="text-primary font-medium text-sm">{exp.company}</p>
+                      <p className="text-primary font-medium text-sm">
+                        {exp.company}
+                      </p>
                     </div>
                   </div>
                   <span className="text-sm text-muted-foreground font-body">

@@ -2,10 +2,17 @@ import { Github, Linkedin, Mail, Twitter } from "lucide-react";
 import avatar from "@/assets/avatar.png";
 
 const socialLinks = [
-  { icon: Github, href: "https://github.com", label: "GitHub" },
-  { icon: Linkedin, href: "https://linkedin.com", label: "LinkedIn" },
-  { icon: Twitter, href: "https://twitter.com", label: "Twitter" },
-  { icon: Mail, href: "mailto:hello@example.com", label: "Email" },
+  {
+    icon: Github,
+    href: "https://github.com/Abdulmuhaimin-Ali",
+    label: "GitHub",
+  },
+  {
+    icon: Linkedin,
+    href: "https://www.linkedin.com/in/abdulmuhaimin-ali/",
+    label: "LinkedIn",
+  },
+  { icon: Mail, href: "mailto:a_ali217595@gmail.com", label: "Email" },
 ];
 
 const Hero = () => {
@@ -16,14 +23,14 @@ const Hero = () => {
         <div className="absolute top-20 left-10 w-64 h-64 bg-primary/10 rounded-full blur-3xl" />
         <div className="absolute bottom-20 right-10 w-80 h-80 bg-accent/10 rounded-full blur-3xl" />
       </div>
-      
+
       <div className="relative z-10 flex flex-col items-center text-center">
         {/* Avatar */}
         <div className="avatar-ring mb-8 animate-fade-up">
           <div className="w-40 h-40 md:w-48 md:h-48 rounded-full overflow-hidden border-4 border-card/20 glow">
-            <img 
-              src={avatar} 
-              alt="Developer avatar" 
+            <img
+              src={avatar}
+              alt="Developer avatar"
               className="w-full h-full object-cover"
             />
           </div>
@@ -31,12 +38,12 @@ const Hero = () => {
 
         {/* Name */}
         <h1 className="font-display text-4xl md:text-6xl lg:text-7xl font-bold text-primary-foreground mb-4 animate-fade-up-delay-1">
-          Alex Chen
+          Muhaimin Ali
         </h1>
 
         {/* Title */}
         <p className="text-lg md:text-xl text-primary-foreground/80 font-body font-light mb-8 animate-fade-up-delay-2">
-          Full-Stack Developer & UI Designer
+          Backend Developer
         </p>
 
         {/* Social Links */}

@@ -1,29 +1,32 @@
-import { ExternalLink, Github } from "lucide-react";
+import { Code, ExternalLink, Github } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const projects = [
   {
-    title: "CloudSync Pro",
-    description: "A real-time collaboration platform for remote teams with video conferencing, document editing, and project management features.",
-    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=500&fit=crop",
-    technologies: ["React", "WebRTC", "Node.js", "Redis"],
-    github: "https://github.com",
-    live: "https://example.com",
+    title: "Code Clarity",
+    description:
+      "A auto-updating technical documentation tool that generates and maintains project docs using AI, ensuring they stay current with code changes.",
+    image: "https://static.sheetgo.com/wp-content/uploads/2021/07/cover_4.png",
+    technologies: [
+      "Node.js",
+      "Express",
+      "Python",
+      "PostgreSQL",
+      "React",
+      "Aws",
+      "VertexAI",
+    ],
+    github: "https://github.com/Abdulmuhaimin-Ali/code-clarity",
+    live: "https://www.loom.com/share/b7c1874c0d1d47389b8f4fb35e2113ce",
   },
   {
-    title: "AI Content Studio",
-    description: "An AI-powered content creation tool that generates marketing copy, blog posts, and social media content using GPT models.",
-    image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=500&fit=crop",
-    technologies: ["Next.js", "OpenAI", "Tailwind", "Prisma"],
-    github: "https://github.com",
-    live: "https://example.com",
-  },
-  {
-    title: "FinTrack Dashboard",
-    description: "A comprehensive financial dashboard for tracking investments, expenses, and generating insights with beautiful data visualizations.",
-    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=500&fit=crop",
-    technologies: ["Vue.js", "D3.js", "Python", "FastAPI"],
-    github: "https://github.com",
+    title: "Cook Smart AI",
+    description:
+      "An AI-powered recipe generator that creates personalized meal ideas based on available ingredients, dietary preferences, and nutritional goals.",
+    image:
+      "https://stellarix.com/wp-content/uploads/2025/08/food-as-medicine-scaled.webp",
+    technologies: ["React", "OpenAI", "Python", "Prisma"],
+    github: "https://github.com/Abdulmuhaimin-Ali/cook-smart",
     live: "https://example.com",
   },
 ];
@@ -74,13 +77,21 @@ const ProjectsSection = () => {
 
                 <div className="flex gap-3">
                   <Button variant="outline" size="sm" asChild>
-                    <a href={project.github} target="_blank" rel="noopener noreferrer">
+                    <a
+                      href={project.github}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       <Github className="w-4 h-4 mr-2" />
                       Code
                     </a>
                   </Button>
                   <Button size="sm" asChild>
-                    <a href={project.live} target="_blank" rel="noopener noreferrer">
+                    <a
+                      href={project.live}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       <ExternalLink className="w-4 h-4 mr-2" />
                       Live Demo
                     </a>
