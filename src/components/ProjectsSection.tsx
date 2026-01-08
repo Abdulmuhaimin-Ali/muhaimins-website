@@ -29,6 +29,16 @@ const projects = [
     github: "https://github.com/Abdulmuhaimin-Ali/cook-smart",
     live: "https://example.com",
   },
+  {
+    title: "Fund Fraud Detection",
+    description:
+      "An AI-powered recipe generator that creates personalized meal ideas based on available ingredients, dietary preferences, and nutritional goals.",
+    image:
+      "https://stellarix.com/wp-content/uploads/2025/08/food-as-medicine-scaled.webp",
+    technologies: ["Python", "OpenAI", "React", "Prisma"],
+    github: "https://github.com/Abdulmuhaimin-Ali/fund-fraud-detection",
+    live: "https://example.com",
+  },
 ];
 
 const ProjectsSection = () => {
