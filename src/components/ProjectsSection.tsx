@@ -38,6 +38,7 @@ const projects = [
     technologies: ["Python", "OpenAI", "React", "Prisma"],
     github: "https://github.com/Abdulmuhaimin-Ali/fund-fraud-detection",
     live: "https://example.com",
+    // deploy
   },
 ];
 
