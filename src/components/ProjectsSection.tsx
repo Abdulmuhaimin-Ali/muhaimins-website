@@ -34,7 +34,7 @@ const projects = [
     description:
       "An AI-powered recipe generator that creates personalized meal ideas based on available ingredients, dietary preferences, and nutritional goals.",
     image:
-      "https://stellarix.com/wp-content/uploads/2025/08/food-as-medicine-scaled.webp",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIbEyoMMRcDFMqTRfOBwwueWuI5rx5aGye3g&s",
     technologies: ["Python", "OpenAI", "React", "Prisma"],
     github: "https://github.com/Abdulmuhaimin-Ali/fund-fraud-detection",
     live: "https://example.com",
