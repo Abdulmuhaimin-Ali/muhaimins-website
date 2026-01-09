@@ -32,7 +32,7 @@ const projects = [
   {
     title: "Fund Fraud Detection",
     description:
-      "An AI-powered recipe generator that creates personalized meal ideas based on available ingredients, dietary preferences, and nutritional goals.",
+      "A machine learning system that analyzes financial transactions to identify and flag potentially fraudulent activities in real-time, enhancing security for users and institutions.",
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIbEyoMMRcDFMqTRfOBwwueWuI5rx5aGye3g&s",
     technologies: ["Python", "OpenAI", "React", "Prisma"],
