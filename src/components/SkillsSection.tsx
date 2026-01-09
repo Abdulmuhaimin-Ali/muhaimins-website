@@ -11,7 +11,9 @@ const skillCategories = [
   {
     title: "Backend",
     skills: [
+      { name: "C# .Net", level: 95 },
       { name: "Node.js", level: 90 },
+      { name: "Spring Boot", level: 85 },
       { name: "Python", level: 85 },
       { name: "PostgreSQL", level: 85 },
       { name: "GraphQL", level: 80 },
@@ -38,7 +40,10 @@ const SkillsSection = () => {
 
         <div className="mt-8 grid gap-8 md:grid-cols-1">
           {skillCategories.map((category, catIndex) => (
-            <div key={catIndex} className="bg-card rounded-xl p-6 card-elevated">
+            <div
+              key={catIndex}
+              className="bg-card rounded-xl p-6 card-elevated"
+            >
               <h3 className="font-display text-xl font-semibold text-foreground mb-6">
                 {category.title}
               </h3>
